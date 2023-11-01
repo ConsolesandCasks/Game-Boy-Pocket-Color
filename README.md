@@ -1,3 +1,17 @@
+__MGBC-MBL-KiCad__ _Zip file_ attached is my KiCAD port of Bucket Mouse's MGBC Eagle files. 
+
+I've spent a bit of time cleaning these up for proper use.
+
+My main goal was to reduce the number of errors//warnings and make the board "ready for fab" as well as fit for future edits or modifications in KiCAD
+
+All imported silkscreen has been repaired (some did not import), all footprints except for NPTH are configured without error. Nets, pads and plated through holes should all be configured correctly for fabrication and modification as close to the original Eagle files as I could get them to be in KiCAD.
+
+If you run into issues please let me know. 
+
+__Fabricate at your own risk.__
+
+Below is the readme file from Bucket Mouse's main branch - everything below applies to these files as well, especially the LICENSE. That means if you utilize any of my KiCAD files (including the footprints) for your own project, you must attribute Bucket Mouse's original work and state that you used the KiCAD files that I created.
+
 # Game Boy Pocket Color
 
 ![image](https://user-images.githubusercontent.com/97127539/219991707-c83d69cf-715f-4326-8e82-952a977f087f.png)
