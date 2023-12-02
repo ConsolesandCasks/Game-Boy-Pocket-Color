@@ -1,5 +1,16 @@
-__MGBC-MBL-KiCad__ _Zip file_ attached is my KiCAD port of Bucket Mouse's MGBC Eagle files. 
+__MGBC-MBL-KiCad__ <br/>
+_Zip file_ attached is my KiCAD port of Bucket Mouse's MGBC 2.0 Eagle files.
 
+__CGB-MBL-CC-01__ <br/>
+_Zip file_ attached is the Bucket Mouse MGBC 2.0 rerouted to fit on a __GAME BOY COLOR SHAPED PCB__ to fit into a standard sized GBC shell. <br/>
+This is __UNTESTED__ as of Dec. 12 2023. <br/>
+Fabricate using all of the same requirements for PCB printing as the standard MGBC files (noted below and in the PCB Folder). <br/>
+Because this moves a number of the components, the rocker switch functionality is no longer included, but should not be as critical since _most CGB IPS screens_ should function properly provided you have the correct shell for that screen. As such, I've added an additional pad at the top for the Select button. This board is still NOT COMPATIBLE with the OEM screen, but should be compatible with nearly every othrer mod that the Bucket Mouse MGBC is also compatible with. <br/>
+__Rev 1.1__ (in progress) should restore the GBC IR functionality, provided you transplant those components from an original CGB board or purchase new equivalents. <br/>
+I will be testing both versions soon and will post updates to confirm, and files for the 1.1 revision when it is ready.
+
+<br/>
+<br/>
 I've spent a bit of time cleaning these up for proper use.
 
 My main goal was to reduce the number of errors//warnings and make the board "ready for fab" as well as fit for future edits or modifications in KiCAD
