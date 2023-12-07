@@ -2,6 +2,7 @@ __MGBC-MBL-KiCad__ <br/>
 _Zip file_ attached is my KiCAD port of Bucket Mouse's MGBC 2.0 Eagle files.
 
 __CGB-MBL-CC-01__ <br/>
+<img src="cgb_mbl_cc.jpg" width=327 height=435 ><br/>
 _Zip file_ attached is the Bucket Mouse MGBC 2.0 rerouted to fit on a __GAME BOY COLOR SHAPED PCB__ to fit into a standard sized GBC shell. <br/>
 This board is confirmed to fit in an OEM and CGS CGB shell, although some of the holes aren't perfect (and I'll be adjusting this soon), and I have confirmed it functions properly. <br/>
 Fabricate at your own risk using all of the same requirements for PCB printing as the standard MGBC files (noted below and in the PCB Folder). <br/>
