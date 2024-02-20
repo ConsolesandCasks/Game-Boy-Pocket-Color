@@ -91,7 +91,7 @@ The current revision is v2.0, but you may have an earlier board (if you bought o
 | v1.3 | These should be practice boards only.                                                                                        |
 | v1.4 | Use tactile buttons. Minor shell trimming may be required for volume dial and rocker switch.                                 |
 | v1.5 | Minor shell trimming may be required for volume dial and rocker switch.                                                      |
-| v1.6 | No important differences compared to v2.0.                                                                                   |
+| v1.6 | No important differences compared to v2.0. (Check EM7 and DC/BT+ requirements!)                                              |
 
 ### II. Brand New Electronic Parts
 
@@ -193,7 +193,7 @@ You don't need any extra mods to complete the MGBC build, but there are some opt
   
 Here are a sample of my favorite mods for the MGBC:
 
-  - <a href="https://www.etsy.com/listing/1267252807/game-boy-color-battery-indicator-mod">Leggomyfroggo's Two-Stage Battery Indicator Mod</a>: goes in place of the power LED, changes color when battery gets low
+  - <a href="https://www.etsy.com/listing/1348046388/game-boy-pocket-battery-indicator-mod">Leggomyfroggo's Two-Stage Battery Indicator Mod</a>: goes in place of the power LED, changes color when battery gets low
   - <a href="https://www.etsy.com/listing/1422095615/frogulator-game-boy-colorpocket-dc">Leggomyfroggo's Frogulator</a>: a power supply that slots into the U5 socket; eyes light up for battery power indication
   - <a href="https://www.muramasaentertainment.com/product/pocket-power-pocket/">Muramasa's Pocket-Power Pocket</a>: an all-in-one LiPo charger including USB-C port; requires some shell cuts and **removal of EM7 for v1.6 and earlier** [untested]
   - <a href="https://github.com/marshallh/gbpp">marshallh's Game Boy Pocket Power</a>: a power supply that slots into the U5 socket; has LiPo support (solder wires through the DC and BT+ holes on the MGBC board, and **remove EM7 on v1.6 and earlier** - requires USB-C board for charging and some shell cuts [untested]
