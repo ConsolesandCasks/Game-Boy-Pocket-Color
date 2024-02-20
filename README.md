@@ -1,14 +1,36 @@
-__MGBC-MBL-KiCad__ <br/>
-_Zip file_ attached is my KiCAD port of Bucket Mouse's MGBC 2.0 Eagle files.
+# Bucket Mouse MGBC KiCad Variants - What is included in this repository?
 
-__CGB-MBL-CC-01__ <br/>
+## __MGBC-MBL-KiCad__ <br/>
+[_Zip file_](https://github.com/ConsolesandCasks/Game-Boy-Pocket-Color/blob/7a2eb984fbcedc3daec190079729cb69f2023ed0/MGBC-MBL-KiCad.zip) attached is my KiCAD port of Bucket Mouse's MGBC 2.0 Eagle files.
+
+## __CGB-MBL-CC-01__ <br/>
 <img src="cgb_mbl_cc.jpg" width=327 height=435 ><br/>
-_Zip file_ attached is the Bucket Mouse MGBC 2.0 rerouted to fit on a __GAME BOY COLOR SHAPED PCB__ to fit into a standard sized GBC shell. <br/>
-This board is confirmed to fit in an OEM and CGS CGB shell, although some of the holes aren't perfect (and I'll be adjusting this soon), and I have confirmed it functions properly. <br/>
-Fabricate at your own risk using all of the same requirements for PCB printing as the standard MGBC files (noted below and in the PCB Folder). <br/>
-Because this moves a number of the components, the rocker switch functionality is no longer included, but should not be as critical since _most CGB IPS screens_ should function properly provided you have the correct shell for that screen. As such, I've added an additional pad at the top for the Select button. This board is still NOT COMPATIBLE with the OEM screen, but should be compatible with nearly every othrer mod that the Bucket Mouse MGBC is also compatible with. <br/>
-__Rev 1.1__ (in progress) should restore the GBC IR functionality, provided you transplant those components from an original CGB board or purchase new equivalents. <br/>
-I will be testing both versions soon and will post updates to confirm, and files for the 1.1 revision when it is ready.
+[_Zip file_](https://github.com/ConsolesandCasks/Game-Boy-Pocket-Color/blob/02a58a94efbca070167af0ffc41fea6773b3004f/CGB-MBL-CC-01.zip) attached is the Bucket Mouse MGBC 2.0 rerouted to fit on a __GAME BOY COLOR SHAPED PCB__ to fit into a standard sized GBC shell. <br/>
+This board is confirmed to fit in an OEM and CGS CGB shell, and I have confirmed it functions properly. <br/>
+Fabricate at your own risk using all of the same requirements for PCB printing as the standard MGBC files (noted below and in the PCB Folder). <br/><br/>
+Because this moves a number of the components, the rocker switch functionality is no longer included, but should not be as critical since _most CGB IPS screens_ should function properly provided you have the correct shell for that screen (I have tested with FP, CGS, and Highspeedido). As such, I've added an additional pad at the top for the Select button for better FP support. <br/>
+This board is still NOT COMPATIBLE with the OEM screen<br/>
+It should also be compatible with nearly every other mod that the Bucket Mouse MGBC is also compatible with. (I have not tested all) <br/>
+__Rev 1.2__ restores IR functionality and adjusts the location of the pad on the front of the board meant to support the Froggo battery indicator (hopefully this is in the right location now) <br />
+### IR Component List
+All IR components are direct donors from the CGB motherboard. You should be able to replace most of these components with a new stock part instead, should you choose and can find a suitable replacement. For ease of transfer, these components are distinguished from the MGBC part designation by a * _before_ the number indicating the designation from the original CGB motherboard and to note it is an optional part for IR functionality only. <br/>
+As of this post, I do not know of a suitable Phototransistor and IR LED replacement. It is possible that there are alternative parts available that may require slightly different passive circuitry, but the original components were made obsolete in 2011, with no recommended alternatives.
+| Ref Des | Footprint | Value |
+| ---- | ---- | ---- | 
+| C *3 | 0603 Capacitor | 470nF |
+| C *11 | 0603 Capacitor | 15nF |
+| C *12 | 0603 Capacitor | 33pF |
+| C *42 | 0603 Capacitor | 1uF |
+| D *3 | 3mm Infrared LED | _GL381_|
+| Q *3, Q *4 | SOT-323 / SC-70 | 2SC4081 |
+| Q *5 | 3mm Phototransistor | _PT380F_ |
+| R *9 | 0603 Resistor | 150 ohm | 
+| R *10 | 0603 Resistor | 1k ohm |
+| R *12 | 0603 Resistor | 4.7k ohm |
+| R *13 | 0603 Resistor | 200k ohm |
+| R *14 | 0603 Resistor | 2k ohm |
+| R *15 | 0603 Resistor | 1M ohm |
+| R *23, R *24 | 0603 Resistor | 33k ohm |
 
 <br/>
 <br/>
